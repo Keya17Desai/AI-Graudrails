@@ -1,0 +1,112 @@
+NEXORA TECHNOLOGIES — MARKETING EXPENSE DETAIL Q1 FY2025
+Confidential — Finance and Marketing Teams
+Prepared by: Riya Malhotra, Marketing Operations Manager
+
+================================================================
+EXPENSE REGISTER — Q1 FY2025
+================================================================
+
+Total Approved Marketing Budget Q1: ₹2,00,00,000
+Total Actual Spend Q1: ₹1,80,40,000
+Variance: ₹19,60,000 underspent (9.8% under budget)
+
+DIGITAL ADVERTISING
+----------------------------------------------------------------
+Google Search Ads (India)
+  Vendor: Google India Pvt Ltd
+  Invoice: GGL-2024-Q1-NEX-001
+  Amount: ₹18,40,000
+  Purpose: Brand and category keywords — workflow automation, BPA software
+
+LinkedIn Campaign Manager
+  Vendor: LinkedIn Ireland (billed in INR)
+  Invoice: LI-2024-APR-MAY-JUN
+  Amount: ₹14,20,000
+  Purpose: ABM ads targeting VP Operations, CIO, COO personas at 50 target accounts
+
+YouTube Pre-roll
+  Vendor: Google India Pvt Ltd
+  Invoice: GGL-YT-2024-Q1-NEX
+  Amount: ₹9,40,000
+  Purpose: "Kill the Spreadsheet" brand video (45 sec)
+
+EVENTS
+----------------------------------------------------------------
+GITEX Dubai 2024
+  Vendor: GITEX Global LLC
+  Invoice: GITEX-2024-STAND-B42
+  Booth Rental: ₹22,00,000
+  Stand Design and Build: ₹8,40,000
+  Travel (5 team members, 4 nights Dubai): ₹7,20,000
+  Giveaways and collateral: ₹60,000
+  Total GITEX: ₹38,20,000
+
+AWS Summit Bangalore
+  Vendor: Amazon Web Services India
+  Invoice: AWS-SUMMIT-BLR-2024
+  Sponsorship (Bronze + Speaking Slot): ₹12,00,000
+  Booth materials: ₹3,80,000
+  Team expenses: ₹2,20,000
+  Total AWS Summit: ₹18,00,000
+
+CONTENT AND CREATIVE
+----------------------------------------------------------------
+Whitepaper: "State of Workflow Automation 2024"
+  Vendor: ContentCraft Studio (freelance)
+  Invoice: CC-2024-031
+  Amount: ₹3,60,000
+  Purpose: Research, writing, design, and distribution
+
+Video Production (Kill the Spreadsheet campaign)
+  Vendor: Frames & Motion Productions, Bangalore
+  Invoice: FMP-2024-042
+  Amount: ₹6,80,000
+  Purpose: 45-second brand video + 3 x 15-second cuts for digital
+
+Case Study: Mahindra Logistics
+  Vendor: Internal (no external cost)
+  Amount: ₹0
+
+Website Design Updates (Campaign Landing Pages)
+  Vendor: Designify UX, Mumbai
+  Invoice: DES-2024-Q1-07
+  Amount: ₹2,40,000
+
+PR AND COMMUNICATIONS
+----------------------------------------------------------------
+PR Retainer (Q1)
+  Vendor: Avian WE PR Agency
+  Invoice: AVIAN-2024-Q1-RET
+  Amount: ₹4,80,000
+  Coverage secured: Economic Times (1 feature), Inc42 (2 articles), YourStory (1 interview)
+
+EMAIL AND MARKETING AUTOMATION
+----------------------------------------------------------------
+HubSpot License (Q1 portion)
+  Amount: ₹2,10,000
+
+Webinar Platform — Zoom Webinars (Q1 portion)
+  Amount: ₹45,000
+
+SEMrush — SEO and competitive intelligence (Q1 portion)
+  Amount: ₹38,000
+
+MISCELLANEOUS
+----------------------------------------------------------------
+Team training and certifications (Google Ads, HubSpot)
+  Amount: ₹72,000
+
+Miscellaneous (courier, printing, small purchases)
+  Amount: ₹95,000
+
+================================================================
+APPROVALS AND SIGN-OFF
+================================================================
+
+Prepared by: Riya Malhotra (riya.malhotra@nexora.internal)
+Approved by: Karan Mehta, VP Marketing (karan.mehta@nexora.internal)
+Finance Reviewed by: Anjali Mehta, Finance Lead (anjali.mehta@nexora.internal)
+
+================================================================
+END OF DOCUMENT
+================================================================

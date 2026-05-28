@@ -1,0 +1,117 @@
+NEXORA TECHNOLOGIES — IT ACCEPTABLE USE POLICY
+Applicable to all employees, contractors, and interns
+Version 2.1 | Effective April 2024
+
+================================================================
+SECTION 1: PURPOSE
+================================================================
+
+This policy governs the acceptable use of Nexora Technologies' IT systems, devices, networks, and data. It applies to all employees, contractors, and interns with access to Nexora systems, regardless of their location or the device they use.
+
+The purpose of this policy is to protect Nexora's information assets, ensure regulatory compliance, and maintain a productive and secure working environment.
+
+================================================================
+SECTION 2: EQUIPMENT AND DEVICES
+================================================================
+
+Company-issued laptops are provided to all full-time employees at the L2 level and above. L1 employees in Engineering and Product are also issued laptops.
+
+Laptops run either macOS (Apple MacBook Pro / Air) or Windows 11, as assigned by IT based on role requirements. Engineering roles default to MacBook Pro.
+
+Employees are responsible for:
+- Keeping company devices physically secure at all times
+- Reporting lost or stolen devices to IT within 2 hours (it-support@nexora.internal)
+- Not installing software that has not been approved by IT
+- Ensuring devices are locked when not in use (auto-lock is configured at 5 minutes)
+
+Personal devices may be used to access company email and collaboration tools (Slack, Google Workspace) via approved mobile apps. Personal devices must have a screen lock and be enrolled in Mobile Device Management (MDM) if accessing company email.
+
+================================================================
+SECTION 3: NETWORK AND VPN
+================================================================
+
+Employees working remotely must connect via Nexora's VPN before accessing any internal systems (HR portal, engineering tools, internal dashboards).
+
+VPN client: Cisco AnyConnect
+VPN server: vpn.nexora.internal
+Support: it-support@nexora.internal | Helpdesk extension: 1000
+
+Public Wi-Fi networks must not be used without the VPN being active. Coffee shops, airports, and hotel networks are considered public Wi-Fi.
+
+The company network in all offices uses WPA3 encryption. Employees should not connect to the guest Wi-Fi network ("NexoraGuest") on company devices.
+
+================================================================
+SECTION 4: SOFTWARE AND CLOUD SERVICES
+================================================================
+
+Approved software and cloud tools:
+- Communication: Slack, Google Meet, Zoom
+- Productivity: Google Workspace (Gmail, Docs, Sheets, Drive)
+- Project Management: Jira, Confluence, Notion (Engineering and Product only)
+- Code: GitHub (Enterprise), VS Code, IntelliJ IDEA
+- Design: Figma
+- CRM: Salesforce
+- HR: Darwin Box
+- Finance: Zoho Books
+
+Any software not on the approved list requires a request to it-support@nexora.internal. Procurement will evaluate cost, security, and compliance before approving.
+
+Shadow IT (using personal accounts for company work, using unapproved SaaS tools) is strictly prohibited. Company data must not be uploaded to personal Google Drive, Dropbox, or any unapproved cloud storage.
+
+================================================================
+SECTION 5: DATA SECURITY
+================================================================
+
+Data Classification:
+- Public: Marketing collateral, press releases
+- Internal: General operational data, non-sensitive communications
+- Confidential: Financial data, employee data, client contracts, product roadmap
+- Restricted: Payroll, PAN/Aadhaar data, client PII, source code
+
+Confidential and Restricted data must not be:
+- Shared via personal email accounts
+- Stored on personal devices without encryption
+- Uploaded to unapproved cloud services
+- Discussed in public or semi-public settings
+
+All confidential documents must be shared via Google Drive with specific person-level permissions (not "anyone with link").
+
+================================================================
+SECTION 6: PASSWORDS AND ACCESS
+================================================================
+
+Password requirements:
+- Minimum 12 characters
+- Must include uppercase, lowercase, number, and special character
+- Must not reuse the last 10 passwords
+
+Multi-Factor Authentication (MFA) is mandatory for:
+- Google Workspace (company email and Drive)
+- GitHub
+- Salesforce
+- VPN
+- Any system with access to client data
+
+Password manager: Employees are encouraged to use Bitwarden (company licence available, request from IT).
+
+Access provisioning: New employees receive standard access on their first day. Additional access requires manager approval submitted via the IT portal.
+
+Access deprovisioning: IT removes all system access within 2 hours of an employee's last working day.
+
+================================================================
+SECTION 7: INCIDENT REPORTING
+================================================================
+
+Security incidents to report immediately:
+- Suspicious emails (phishing, unusual attachments)
+- Lost or stolen devices
+- Unauthorised access attempts
+- Data breaches or accidental data exposure
+
+Report to: security@nexora.internal
+IT Security Head: Manish Tiwari (manish.tiwari@nexora.internal)
+Emergency (outside business hours): +91-98765-43210
+
+================================================================
+END OF DOCUMENT
+================================================================

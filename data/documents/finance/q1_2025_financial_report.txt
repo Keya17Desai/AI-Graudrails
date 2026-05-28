@@ -1,0 +1,127 @@
+NEXORA TECHNOLOGIES — Q1 FY2025 FINANCIAL REPORT
+Confidential — Finance Team and C-Level Only
+Period: April 2024 – June 2024
+Prepared by: Finance Department | Approved by: CFO
+
+================================================================
+EXECUTIVE SUMMARY
+================================================================
+
+Nexora Technologies delivered a strong Q1 FY2025 with total revenue of ₹18.4 crore, representing a 23% year-on-year growth compared to Q1 FY2024 (₹14.96 crore). Net profit stood at ₹3.2 crore, with an EBITDA margin of 24.6%.
+
+New ARR added in Q1: ₹4.1 crore
+Churned ARR: ₹0.48 crore
+Net New ARR: ₹3.62 crore
+
+================================================================
+SECTION 1: REVENUE BREAKDOWN
+================================================================
+
+Total Revenue: ₹18.4 crore
+
+By Revenue Type:
+- Subscription (SaaS ARR): ₹14.8 crore (80.4%)
+- Professional Services / Implementation: ₹2.6 crore (14.1%)
+- Support and Maintenance Contracts: ₹1.0 crore (5.4%)
+
+By Geography:
+- India: ₹12.2 crore (66.3%)
+- Southeast Asia (Singapore, Malaysia, Thailand): ₹4.1 crore (22.3%)
+- Middle East (UAE, Saudi Arabia): ₹2.1 crore (11.4%)
+
+By Segment:
+- Enterprise (500+ employees): ₹11.8 crore
+- Mid-market (100–500 employees): ₹5.4 crore
+- SMB (under 100 employees): ₹1.2 crore
+
+Top 5 Revenue Clients (Q1 FY2025):
+1. Reliance Industries Ltd — ₹1.42 crore
+2. Mahindra Logistics — ₹98 lakh
+3. Gulf Air (UAE) — ₹87 lakh
+4. DBS Bank Singapore — ₹81 lakh
+5. Wipro BPS — ₹76 lakh
+
+================================================================
+SECTION 2: EXPENSE BREAKDOWN
+================================================================
+
+Total Operating Expenses: ₹13.87 crore
+
+Personnel Costs: ₹8.4 crore (60.6% of total expenses)
+- Engineering: ₹3.6 crore
+- Sales and Marketing: ₹2.1 crore
+- Customer Success: ₹1.2 crore
+- G&A (HR, Finance, Legal, Admin): ₹1.5 crore
+
+Infrastructure and Cloud Costs: ₹1.2 crore
+- AWS (primary cloud): ₹72 lakh
+- Azure (secondary / client-specific deployments): ₹28 lakh
+- Monitoring and DevOps tools: ₹20 lakh
+
+Sales and Marketing Spend: ₹1.8 crore
+- Digital marketing and paid acquisition: ₹48 lakh
+- Events and conferences: ₹52 lakh
+- Sales team travel: ₹36 lakh
+- Marketing collateral and brand: ₹44 lakh
+
+General and Administrative: ₹1.1 crore
+- Office rent (Bangalore HQ + Mumbai + Hyderabad): ₹62 lakh
+- Legal and compliance: ₹18 lakh
+- Miscellaneous: ₹30 lakh
+
+Depreciation and Amortisation: ₹1.37 crore
+
+================================================================
+SECTION 3: PROFITABILITY
+================================================================
+
+Gross Profit: ₹12.6 crore
+Gross Margin: 68.5%
+
+EBITDA: ₹4.53 crore
+EBITDA Margin: 24.6%
+
+Net Profit (after tax): ₹3.2 crore
+Net Margin: 17.4%
+
+Tax Rate: 25.17% (Domestic company, new tax regime)
+
+================================================================
+SECTION 4: CASH FLOW
+================================================================
+
+Opening Cash Balance (April 1, 2024): ₹9.2 crore
+Cash from Operations: ₹4.1 crore
+Cash used in Investing (product R&D capex): -₹1.4 crore
+Cash used in Financing (loan repayment): -₹0.6 crore
+Closing Cash Balance (June 30, 2024): ₹11.3 crore
+
+Accounts Receivable Outstanding: ₹5.8 crore (DSO: 47 days)
+Target DSO: 40 days — collections team to follow up on overdue accounts
+
+================================================================
+SECTION 5: KEY METRICS
+================================================================
+
+Annual Recurring Revenue (ARR): ₹59.2 crore (as of June 30, 2024)
+Monthly Recurring Revenue (MRR): ₹4.93 crore
+Total Active Customers: 412
+Net Revenue Retention (NRR): 118%
+Gross Revenue Retention (GRR): 94%
+Average Contract Value (ACV): ₹14.4 lakh
+Customer Acquisition Cost (CAC): ₹3.8 lakh
+CAC Payback Period: 8.2 months
+LTV:CAC Ratio: 7.4x
+
+================================================================
+SECTION 6: OUTLOOK FOR Q2 FY2025
+================================================================
+
+Pipeline (Q2 deals in advanced stages): ₹6.8 crore
+Expected Q2 Revenue: ₹19.8 – ₹21.0 crore
+Key risks: Delayed closure of 2 large enterprise deals (₹1.8 crore combined)
+Hiring plan: 18 additional headcount approved for Q2 (12 engineering, 4 sales, 2 CS)
+
+================================================================
+END OF DOCUMENT
+================================================================

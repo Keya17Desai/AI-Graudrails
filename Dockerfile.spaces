@@ -1,0 +1,29 @@
+FROM python:3.10-slim
+
+# HuggingFace Spaces runs as user 1000
+RUN useradd -m -u 1000 appuser
+
+WORKDIR /app
+
+# Install dependencies
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Download spaCy model (baked into image so startup is fast)
+RUN python -m spacy download en_core_web_lg
+
+# Copy application code and documents
+COPY --chown=appuser:appuser . .
+
+# Pre-ingest documents at build time into a persistent ChromaDB directory
+# This means the knowledge base is ready on first request, no ingestion step needed
+RUN CHROMA_MODE=embedded CHROMA_PERSIST_DIR=/app/chroma_data \
+    OLLAMA_HOST=http://localhost:11434 OLLAMA_MODEL=llama3 \
+    python ingest.py data/documents 2>/dev/null || true
+
+USER appuser
+
+# HuggingFace Spaces requires port 7860
+EXPOSE 7860
+
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "7860"]

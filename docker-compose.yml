@@ -1,0 +1,63 @@
+version: "3.9"
+
+services:
+
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file: .env
+    depends_on:
+      - postgres
+      - chromadb
+    volumes:
+      - ./data/documents:/app/data/documents
+    restart: unless-stopped
+
+  chromadb:
+    image: chromadb/chroma:latest
+    ports:
+      - "8001:8000"
+    volumes:
+      - chroma_data:/chroma/chroma
+    restart: unless-stopped
+
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: chatbot
+      POSTGRES_PASSWORD: chatbot123
+      POSTGRES_DB: chatbotdb
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+  prometheus:
+    image: prom/prometheus:latest
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./docker/prometheus.yml:/etc/prometheus/prometheus.yml
+    restart: unless-stopped
+
+  grafana:
+    image: grafana/grafana:latest
+    ports:
+      - "3000:3000"
+    depends_on:
+      - prometheus
+    environment:
+      - GF_AUTH_ANONYMOUS_ENABLED=true
+      - GF_AUTH_ANONYMOUS_ORG_ROLE=Viewer
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./docker/grafana/provisioning:/etc/grafana/provisioning
+      - ./docker/grafana/dashboards:/var/lib/grafana/dashboards
+    restart: unless-stopped
+
+volumes:
+  chroma_data:
+  postgres_data:
+  grafana_data:

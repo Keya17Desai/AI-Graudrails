@@ -1,0 +1,123 @@
+NEXORA TECHNOLOGIES — Q1 FY2025 MARKETING CAMPAIGN REPORT
+Prepared by: Marketing Team | Reviewed by: VP Marketing
+Period: April 2024 – June 2024
+
+================================================================
+SECTION 1: CAMPAIGN OVERVIEW
+================================================================
+
+In Q1 FY2025, the marketing team ran 4 major campaigns focused on enterprise workflow automation in India and Southeast Asia. Total marketing spend for Q1 was ₹1.8 crore against a quarterly budget of ₹2.0 crore (90% utilisation).
+
+Campaigns:
+1. "Kill the Spreadsheet" — India mid-market digital campaign
+2. GITEX Dubai Sponsorship — Middle East and South Asia enterprise
+3. AWS Summit Bangalore — Cloud-native enterprise buyers
+4. LinkedIn ABM (Account-Based Marketing) — 50 target enterprise accounts
+
+================================================================
+SECTION 2: CAMPAIGN PERFORMANCE
+================================================================
+
+Campaign 1: Kill the Spreadsheet (Digital)
+- Budget Spent: ₹42 lakh
+- Channels: Google Search, LinkedIn Ads, YouTube pre-roll
+- Impressions: 4.8 million
+- Clicks: 68,400 (CTR: 1.43%)
+- Landing Page Visits: 52,100
+- MQLs (Marketing Qualified Leads) Generated: 312
+- SQLs (Sales Qualified Leads) Converted: 87
+- Deals Closed from Campaign: 14
+- Revenue Attributed: ₹1.96 crore
+- ROI: 4.7x
+
+Campaign 2: GITEX Dubai
+- Budget Spent: ₹38 lakh
+- Booth size: 36 sqm (Hall 6, Stand B-42)
+- Badges Scanned: 284
+- Follow-up meetings booked: 41
+- MQLs Generated: 68
+- SQLs Converted: 22
+- Deals Closed: 5
+- Revenue Attributed: ₹1.12 crore
+- ROI: 2.9x
+
+Campaign 3: AWS Summit Bangalore
+- Budget Spent: ₹18 lakh
+- Speaking slot: "Automating Enterprise Ops with AI" (Day 1, Track B)
+- Attendees at session: 340
+- Booth visitors: 520
+- MQLs Generated: 94
+- SQLs Converted: 28
+- Deals Closed: 8
+- Revenue Attributed: ₹88 lakh
+- ROI: 4.9x
+
+Campaign 4: LinkedIn ABM (50 Target Accounts)
+- Budget Spent: ₹22 lakh
+- Accounts reached: 47 of 50
+- Decision-maker contacts engaged: 183
+- MQLs Generated: 38
+- SQLs Converted: 19
+- Deals Closed: 6
+- Revenue Attributed: ₹1.34 crore
+- ROI: 6.1x
+
+================================================================
+SECTION 3: OVERALL LEAD METRICS
+================================================================
+
+Total MQLs Generated (Q1): 512
+Total SQLs Converted (Q1): 156
+MQL to SQL Conversion Rate: 30.5% (target: 28%)
+SQL to Deal Conversion Rate: 21.2% (target: 20%)
+Total Deals Closed from Marketing: 33
+Total Revenue Attributed to Marketing: ₹5.3 crore
+Marketing Sourced Revenue as % of Total: 28.8%
+
+Marketing Qualified Lead Sources:
+- Paid Digital: 41%
+- Events: 33%
+- Organic / SEO: 14%
+- Partner Referrals: 8%
+- Webinars: 4%
+
+================================================================
+SECTION 4: BRAND AND CONTENT PERFORMANCE
+================================================================
+
+Website Traffic (Q1):
+- Total Sessions: 148,000 (+18% QoQ)
+- Organic Sessions: 89,000
+- Paid Sessions: 42,000
+- Referral Sessions: 17,000
+
+Top Performing Content:
+1. "The 2024 State of Workflow Automation in India" (whitepaper) — 4,200 downloads
+2. "How Mahindra Logistics Cut Processing Time by 60%" (case study) — 2,900 downloads
+3. "5 Signs Your Business Needs Workflow Automation" (blog) — 18,400 pageviews
+
+Email Marketing:
+- List Size: 28,400 subscribers
+- Quarterly Newsletter Open Rate: 34.2% (industry avg: 22%)
+- Click Rate: 6.8%
+- Unsubscribe Rate: 0.4%
+
+================================================================
+SECTION 5: Q2 MARKETING PLAN
+================================================================
+
+Q2 Budget: ₹2.2 crore
+Key Campaigns:
+1. SaaS India 2024 Conference — ₹45 lakh (July, Bangalore)
+2. Southeast Asia Digital Push (Singapore/Malaysia focus) — ₹55 lakh
+3. Product Launch Campaign (Workflow AI v3.0) — ₹60 lakh
+4. Customer Advocacy and Case Study Program — ₹20 lakh
+5. Webinar Series (6 webinars, bi-weekly) — ₹12 lakh
+6. Retained digital spend — ₹28 lakh
+
+MQL Target Q2: 600
+Revenue Pipeline Target from Marketing: ₹7 crore
+
+================================================================
+END OF DOCUMENT
+================================================================

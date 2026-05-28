@@ -1,0 +1,70 @@
+{
+  "title": "Company Chatbot",
+  "uid": "chatbot-main",
+  "schemaVersion": 38,
+  "refresh": "10s",
+  "panels": [
+    {
+      "id": 1, "type": "stat", "title": "Total Requests",
+      "gridPos": {"x": 0, "y": 0, "w": 4, "h": 4},
+      "targets": [{"expr": "sum(http_requests_total)", "refId": "A"}],
+      "options": {"reduceOptions": {"calcs": ["lastNotNull"]}}
+    },
+    {
+      "id": 2, "type": "stat", "title": "Guardrail Blocks",
+      "gridPos": {"x": 4, "y": 0, "w": 4, "h": 4},
+      "targets": [{"expr": "sum(guardrail_blocks_total)", "refId": "A"}],
+      "options": {"reduceOptions": {"calcs": ["lastNotNull"]}, "colorMode": "background"},
+      "fieldConfig": {"defaults": {"thresholds": {"steps": [{"color": "green", "value": null}, {"color": "red", "value": 1}]}}}
+    },
+    {
+      "id": 3, "type": "stat", "title": "Auth Failures",
+      "gridPos": {"x": 8, "y": 0, "w": 4, "h": 4},
+      "targets": [{"expr": "sum(auth_attempts_total{result=\"failure\"})", "refId": "A"}],
+      "options": {"reduceOptions": {"calcs": ["lastNotNull"]}, "colorMode": "background"},
+      "fieldConfig": {"defaults": {"thresholds": {"steps": [{"color": "green", "value": null}, {"color": "orange", "value": 3}]}}}
+    },
+    {
+      "id": 4, "type": "stat", "title": "p95 Chat Latency (s)",
+      "gridPos": {"x": 12, "y": 0, "w": 4, "h": 4},
+      "targets": [{"expr": "histogram_quantile(0.95, sum(rate(http_request_duration_seconds_bucket{endpoint=\"/chat\"}[5m])) by (le))", "refId": "A"}],
+      "options": {"reduceOptions": {"calcs": ["lastNotNull"]}}
+    },
+    {
+      "id": 5, "type": "timeseries", "title": "Request Rate by Endpoint",
+      "gridPos": {"x": 0, "y": 4, "w": 12, "h": 8},
+      "targets": [{"expr": "sum(rate(http_requests_total[1m])) by (endpoint)", "legendFormat": "{{endpoint}}", "refId": "A"}]
+    },
+    {
+      "id": 6, "type": "timeseries", "title": "Guardrail Blocks Over Time",
+      "gridPos": {"x": 12, "y": 4, "w": 12, "h": 8},
+      "targets": [{"expr": "sum(rate(guardrail_blocks_total[1m])) by (reason)", "legendFormat": "{{reason}}", "refId": "A"}]
+    },
+    {
+      "id": 7, "type": "timeseries", "title": "LLM Latency Percentiles (s)",
+      "gridPos": {"x": 0, "y": 12, "w": 12, "h": 8},
+      "targets": [
+        {"expr": "histogram_quantile(0.50, sum(rate(llm_request_duration_seconds_bucket[5m])) by (le, backend))", "legendFormat": "p50 {{backend}}", "refId": "A"},
+        {"expr": "histogram_quantile(0.95, sum(rate(llm_request_duration_seconds_bucket[5m])) by (le, backend))", "legendFormat": "p95 {{backend}}", "refId": "B"}
+      ]
+    },
+    {
+      "id": 8, "type": "timeseries", "title": "RAG Query Duration (s)",
+      "gridPos": {"x": 12, "y": 12, "w": 12, "h": 8},
+      "targets": [
+        {"expr": "histogram_quantile(0.50, sum(rate(rag_query_duration_seconds_bucket[5m])) by (le))", "legendFormat": "p50", "refId": "A"},
+        {"expr": "histogram_quantile(0.95, sum(rate(rag_query_duration_seconds_bucket[5m])) by (le))", "legendFormat": "p95", "refId": "B"}
+      ]
+    },
+    {
+      "id": 9, "type": "barchart", "title": "HTTP Status Codes",
+      "gridPos": {"x": 0, "y": 20, "w": 12, "h": 8},
+      "targets": [{"expr": "sum(http_requests_total) by (status_code)", "legendFormat": "{{status_code}}", "refId": "A"}]
+    },
+    {
+      "id": 10, "type": "timeseries", "title": "Avg RAG Chunks Retrieved",
+      "gridPos": {"x": 12, "y": 20, "w": 12, "h": 8},
+      "targets": [{"expr": "rate(rag_chunks_retrieved_sum[5m]) / rate(rag_chunks_retrieved_count[5m])", "legendFormat": "avg chunks", "refId": "A"}]
+    }
+  ]
+}

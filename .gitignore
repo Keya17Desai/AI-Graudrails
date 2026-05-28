@@ -1,0 +1,17 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.db
+.DS_Store
+
+# ChromaDB embedded data (generated at runtime / build time)
+chroma_data/
+
+# Eval results (generated output)
+results/
+
+# Secrets and local overrides
+.env.local
+*.key

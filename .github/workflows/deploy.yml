@@ -1,0 +1,31 @@
+name: Deploy to HuggingFace Spaces
+
+on:
+  push:
+    branches: [main]
+
+# Only runs after CI passes — depends on the ci.yml workflow completing
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    # Only deploy when CI has passed on the same commit
+    needs: []   # set to ["ci / lint-and-test"] if you want to enforce CI first
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # full history needed for git push
+
+      - name: Push to HuggingFace Spaces
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          HF_USERNAME: ${{ secrets.HF_USERNAME }}
+          HF_SPACE_NAME: ${{ secrets.HF_SPACE_NAME }}
+        run: |
+          git config --global user.email "ci@nexora.internal"
+          git config --global user.name "Nexora CI"
+
+          # Add HF Spaces as a remote and force-push main
+          git remote add hf https://${HF_USERNAME}:${HF_TOKEN}@huggingface.co/spaces/${HF_USERNAME}/${HF_SPACE_NAME}
+          git push hf main --force

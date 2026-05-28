@@ -1,0 +1,146 @@
+NEXORA TECHNOLOGIES — EMPLOYEE HANDBOOK
+Version 3.2 | Effective January 2025
+
+================================================================
+SECTION 1: COMPANY OVERVIEW
+================================================================
+
+Nexora Technologies is a B2B SaaS company headquartered in Bangalore, India, with offices in Mumbai and Hyderabad. We build enterprise workflow automation software serving over 400 clients across India, Southeast Asia, and the Middle East.
+
+Founded in 2017, Nexora employs 312 full-time employees as of January 2025.
+
+Mission: To eliminate manual work from enterprise operations through intelligent automation.
+
+================================================================
+SECTION 2: WORKING HOURS AND ATTENDANCE
+================================================================
+
+Standard working hours are 9:30 AM to 6:30 PM, Monday through Friday.
+Core hours during which all employees must be available are 11:00 AM to 4:00 PM.
+
+Flexible work arrangements are available with manager approval. Employees working remotely must be reachable during core hours and must attend all scheduled team meetings via video call.
+
+Attendance is tracked via the HR portal (hrportal.nexora.internal). Employees are expected to mark attendance by 10:00 AM. Three or more unexcused late arrivals in a calendar month will trigger a formal discussion with HR.
+
+================================================================
+SECTION 3: LEAVE POLICY
+================================================================
+
+Annual Leave:
+- Employees with 0–2 years of service: 18 days per year
+- Employees with 2–5 years of service: 21 days per year
+- Employees with 5+ years of service: 24 days per year
+- Leave accrues at the rate of 1.5 days per month for junior tiers and 2 days per month for senior tiers
+- Maximum carry-forward: 10 days to the next calendar year. Unused leave beyond 10 days lapses on December 31.
+
+Sick Leave:
+- 12 days per calendar year
+- Medical certificate required for absences of 3 or more consecutive days
+- Sick leave does not carry forward
+
+Casual Leave:
+- 6 days per calendar year
+- Cannot be combined with annual leave for an extended holiday
+- Approval required at least 24 hours in advance except in genuine emergencies
+
+Maternity Leave:
+- 26 weeks of paid maternity leave in accordance with the Maternity Benefit Act
+- Applicable after 80 days of continuous employment
+- Option to work from home for an additional 8 weeks post-maternity leave
+
+Paternity Leave:
+- 10 working days of paid paternity leave
+- Must be taken within 3 months of the child's birth or adoption
+
+Bereavement Leave:
+- 5 days for immediate family (spouse, child, parent, sibling)
+- 2 days for extended family (grandparent, in-law)
+
+================================================================
+SECTION 4: COMPENSATION AND SALARY
+================================================================
+
+Salaries are paid on the last working day of each month via direct bank transfer.
+
+Salary Structure:
+- Basic Salary: 40% of CTC
+- House Rent Allowance (HRA): 20% of Basic
+- Special Allowance: Balance of CTC after all components
+- Provident Fund: 12% of Basic (employer contribution matched)
+- Gratuity: As per Gratuity Act, funded by company
+
+Annual Increments:
+- Performance reviews are conducted in March each year
+- Increment effective from April 1
+- Average increment range: 8–15% based on performance rating
+- Employees rated "Exceeds Expectations" are eligible for a spot bonus of up to 20% of monthly salary
+
+Salary Bands (as of January 2025):
+- L1 (Associate): ₹4,00,000 – ₹6,00,000 per annum
+- L2 (Senior Associate): ₹6,00,000 – ₹9,00,000 per annum
+- L3 (Lead): ₹9,00,000 – ₹14,00,000 per annum
+- L4 (Senior Lead / Manager): ₹14,00,000 – ₹22,00,000 per annum
+- L5 (Principal / Senior Manager): ₹22,00,000 – ₹35,00,000 per annum
+- L6 (Director and above): ₹35,00,000 and above
+
+================================================================
+SECTION 5: PERFORMANCE MANAGEMENT
+================================================================
+
+Performance reviews happen twice a year:
+- Mid-year review: July (feedback and course correction)
+- Annual review: March (rating, increment, promotion decisions)
+
+Rating Scale:
+1 — Needs Improvement
+2 — Meets Some Expectations
+3 — Meets Expectations
+4 — Exceeds Expectations
+5 — Outstanding
+
+Employees rated 1 for two consecutive cycles will be placed on a Performance Improvement Plan (PIP). A PIP runs for 90 days with defined goals and weekly check-ins with HR and the reporting manager.
+
+Promotions are approved at the annual review cycle. Employees must have been in their current level for a minimum of 18 months to be eligible for promotion consideration.
+
+================================================================
+SECTION 6: CODE OF CONDUCT
+================================================================
+
+All employees are expected to:
+- Treat colleagues, clients, and vendors with respect
+- Maintain confidentiality of all company and client information
+- Disclose any conflict of interest to HR immediately
+- Not accept gifts exceeding ₹2,000 in value from vendors or clients
+- Not engage in any outside employment that competes with Nexora's business without written approval
+
+Violations of the code of conduct are subject to disciplinary action up to and including termination.
+
+================================================================
+SECTION 7: GRIEVANCE REDRESSAL
+================================================================
+
+Employees with a workplace grievance should follow this process:
+1. Discuss the matter directly with the immediate manager
+2. If unresolved, escalate to the HR Business Partner assigned to the department
+3. If still unresolved, escalate to the Head of HR
+4. Final escalation: Employee Relations Committee (meets monthly)
+
+HR contact: hr@nexora.internal
+HR Head: Priya Nair (priya.nair@nexora.internal)
+
+================================================================
+SECTION 8: EXIT PROCESS
+================================================================
+
+Notice Period:
+- L1–L2: 30 days
+- L3–L4: 60 days
+- L5–L6: 90 days
+
+Notice buyout is available at the discretion of the department head.
+
+During the notice period, employees must complete a knowledge transfer checklist signed off by their manager. Final settlement including gratuity (where applicable), leave encashment, and remaining salary will be processed within 30 days of the last working day.
+
+================================================================
+END OF DOCUMENT
+================================================================

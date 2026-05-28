@@ -1,0 +1,110 @@
+NEXORA TECHNOLOGIES — CODE OF CONDUCT
+Applicable to all employees, contractors, and interns
+Version 1.4 | Effective January 2025
+
+================================================================
+SECTION 1: OUR VALUES
+================================================================
+
+Nexora Technologies operates on four core values:
+
+1. INTEGRITY — We do what we say, say what we mean, and own our mistakes.
+2. CUSTOMER OBSESSION — Every decision starts with the question: does this make our customers more successful?
+3. SPEED WITH QUALITY — We move fast without cutting corners on reliability or security.
+4. INCLUSION — We build a workplace where every person feels valued and heard.
+
+================================================================
+SECTION 2: RESPECTFUL WORKPLACE
+================================================================
+
+All employees are expected to treat every colleague, client, vendor, and visitor with dignity and respect. Nexora has zero tolerance for:
+
+- Harassment of any kind (verbal, physical, sexual, or psychological)
+- Discrimination based on gender, religion, caste, race, age, disability, sexual orientation, or any other protected characteristic
+- Bullying, intimidation, or threats
+- Creating a hostile work environment
+
+Any employee who experiences or witnesses such behaviour should report it immediately to HR (hr@nexora.internal) or the anonymous ethics hotline (ethics.nexora.internal). All reports are treated confidentially.
+
+Retaliation against anyone who makes a good-faith report is itself a violation of this code and grounds for disciplinary action.
+
+================================================================
+SECTION 3: CONFLICTS OF INTEREST
+================================================================
+
+A conflict of interest occurs when personal interests could compromise, or appear to compromise, professional judgment and actions.
+
+Employees must disclose to HR:
+- Any personal financial interest in a vendor, partner, or competitor
+- A family member employed by a client, vendor, or competitor in a decision-making role
+- Outside employment or consulting that overlaps with Nexora's business
+- Any board membership or advisory role at another company
+
+Disclosure does not automatically mean a conflict exists. HR and the employee's department head will review and determine appropriate steps.
+
+================================================================
+SECTION 4: CONFIDENTIALITY
+================================================================
+
+Employees have access to sensitive information — client data, product roadmaps, financials, employee records. This information is a business asset and a legal obligation to protect.
+
+Employees must:
+- Not share confidential information with anyone outside Nexora without explicit authorisation
+- Not discuss client names, deals, or financials in public places
+- Not post about clients, internal strategy, or unreleased products on social media
+- Return or destroy all confidential information upon leaving the company
+
+Confidentiality obligations survive employment. Employees who leave Nexora remain bound by the NDA signed at joining for a period of 2 years.
+
+================================================================
+SECTION 5: GIFTS AND ENTERTAINMENT
+================================================================
+
+Employees must not accept gifts exceeding ₹2,000 in value from any vendor, client, or partner. Gifts above this threshold must be reported to the Finance team and either returned or donated.
+
+Business meals with clients and partners are acceptable when:
+- The purpose is legitimate business discussion
+- The cost is reasonable (guideline: under ₹5,000 per person)
+- It is not part of an active procurement decision where the vendor is seeking to influence the outcome
+
+Employees must not offer or accept anything that could be perceived as a bribe to influence a business decision.
+
+================================================================
+SECTION 6: SOCIAL MEDIA
+================================================================
+
+Employees are encouraged to be proud Nexora ambassadors on LinkedIn and other professional platforms. When posting about Nexora:
+
+- Do not share unreleased product features, pricing, or roadmap details
+- Do not disclose client names or client relationships without Marketing approval
+- Do not make statements that could be construed as official Nexora positions unless authorised to do so
+- Clearly indicate that personal views are your own and not Nexora's
+
+================================================================
+SECTION 7: COMPLIANCE WITH LAWS
+================================================================
+
+All employees must comply with applicable Indian laws and the laws of jurisdictions where Nexora operates. This includes:
+- Information Technology Act, 2000
+- Personal Data Protection Bill requirements
+- Foreign Exchange Management Act (for international transactions)
+- Competition Act, 2002 (no price-fixing, bid rigging, or anti-competitive conduct)
+
+When in doubt, consult the Legal team (legal@nexora.internal).
+
+================================================================
+SECTION 8: DISCIPLINARY PROCESS
+================================================================
+
+Violations of this code will result in disciplinary action proportionate to the severity:
+
+Level 1 (Minor): Verbal warning, documented by HR
+Level 2 (Moderate): Written warning, placed in employee record
+Level 3 (Serious): Final written warning or suspension
+Level 4 (Gross Misconduct): Immediate termination
+
+Examples of gross misconduct: harassment, theft, fraud, data breach caused by gross negligence, sharing confidential data with competitors.
+
+================================================================
+END OF DOCUMENT
+================================================================

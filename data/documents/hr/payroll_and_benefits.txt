@@ -1,0 +1,118 @@
+NEXORA TECHNOLOGIES — PAYROLL AND BENEFITS GUIDE
+Confidential — HR Team Only
+Last Updated: February 2025
+
+================================================================
+SECTION 1: PAYROLL PROCESSING SCHEDULE
+================================================================
+
+Payroll is processed on the 25th of each month.
+If the 25th falls on a weekend or public holiday, payroll is processed on the preceding working day.
+
+Payroll cut-off for attendance and leave data: 22nd of each month.
+Any leaves or attendance corrections after the 22nd are adjusted in the following month's payroll.
+
+Payroll is managed by: Rahul Deshmukh, Payroll Manager
+Contact: rahul.deshmukh@nexora.internal | Extension: 2047
+
+================================================================
+SECTION 2: EMPLOYEE PAYROLL DETAILS (SAMPLE RECORDS)
+================================================================
+
+The following are active employee records as of February 2025.
+
+Employee ID: EMP-1042
+Name: Amit Sharma
+Department: Engineering
+Level: L3
+Monthly Gross: ₹95,000
+Bank Account: HDFC Bank, Account ending 7823
+PAN: ABCPS1234D
+
+Employee ID: EMP-1087
+Name: Sneha Kulkarni
+Department: Product Management
+Level: L4
+Monthly Gross: ₹1,45,000
+Bank Account: ICICI Bank, Account ending 4421
+PAN: DFGSK5678E
+
+Employee ID: EMP-1103
+Name: Vikram Nair
+Department: Sales
+Level: L2
+Monthly Gross: ₹62,000
+Bank Account: Axis Bank, Account ending 9910
+PAN: HJKVN9012F
+
+Employee ID: EMP-1118
+Name: Anjali Mehta
+Department: Finance
+Level: L3
+Monthly Gross: ₹88,000
+Bank Account: SBI, Account ending 3345
+PAN: LMNAM3456G
+
+================================================================
+SECTION 3: PROVIDENT FUND (PF)
+================================================================
+
+PF is deducted at 12% of Basic Salary from the employee's salary.
+The company contributes an equal 12% of Basic Salary.
+
+PF account numbers are linked to UAN (Universal Account Number).
+Employees can check their PF balance at epfindia.gov.in using their UAN.
+
+PF withdrawal is permitted after 5 years of continuous service for tax-free withdrawal.
+Partial withdrawal is allowed for specific reasons: medical emergency, home purchase, education.
+
+================================================================
+SECTION 4: HEALTH INSURANCE
+================================================================
+
+All employees are covered under a Group Health Insurance policy.
+
+Provider: Star Health Insurance
+Policy Number: STR-GRP-2025-NEX-00412
+Coverage: ₹5,00,000 per employee per year
+Family floater: Spouse and up to 2 children can be added at ₹8,000 per year (deducted from salary)
+
+Pre-existing conditions: Covered after a 2-year waiting period.
+Maternity coverage: ₹75,000 for normal delivery, ₹1,00,000 for C-section (after 9-month waiting period)
+
+Claims process:
+1. Cashless: Show health card at network hospital (list at hr-portal/insurance)
+2. Reimbursement: Submit bills within 30 days of discharge to hr@nexora.internal
+
+================================================================
+SECTION 5: PERFORMANCE BONUS STRUCTURE
+================================================================
+
+Annual performance bonus is paid in April, alongside the increment letter.
+
+Bonus Calculation:
+- Rating 3 (Meets Expectations): 1 month gross salary
+- Rating 4 (Exceeds Expectations): 1.5 months gross salary
+- Rating 5 (Outstanding): 2 months gross salary
+- Rating 1 or 2: No bonus
+
+Employees who join after October 1 of a financial year are not eligible for bonus in that cycle. Employees who resign before April 30 forfeit the bonus for that year.
+
+================================================================
+SECTION 6: EMPLOYEE LOANS AND ADVANCES
+================================================================
+
+Salary Advance:
+- Available after 6 months of employment
+- Maximum: 2 months gross salary
+- Repaid in equal instalments over 6 months
+- Only one advance active at a time
+
+Personal Loan (tie-up with HDFC Bank):
+- Nexora employees are eligible for pre-approved personal loans up to ₹10,00,000
+- Interest rate: 10.5% per annum (preferential rate)
+- Contact: hr@nexora.internal to initiate
+
+================================================================
+END OF DOCUMENT
+================================================================

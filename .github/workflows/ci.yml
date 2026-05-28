@@ -1,0 +1,142 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Download spaCy model
+        run: python -m spacy download en_core_web_lg
+
+      - name: Lint with ruff
+        run: |
+          pip install ruff
+          ruff check app/ --ignore E501
+
+      - name: Verify all modules import cleanly
+        env:
+          CHROMA_HOST: localhost
+          CHROMA_PORT: 8001
+          OLLAMA_HOST: http://localhost:11434
+          OLLAMA_MODEL: llama3
+          JWT_SECRET_KEY: ci-test-secret
+        run: |
+          python -c "
+          from app.core.config import settings
+          from app.auth.jwt import create_access_token, decode_access_token
+          from app.auth.users import authenticate, hash_password, verify_password
+          from app.auth.dependencies import get_current_user
+          from app.guardrails.pii import detect_pii, has_pii, redact_pii
+          from app.guardrails.pipeline import check_input, check_output, GuardrailViolation
+          from app.monitoring.metrics import http_requests_total, guardrail_blocks_total
+          from app.evaluation.test_cases import EVAL_CASES
+          from app.evaluation.runner import run_single
+          print('All modules imported successfully')
+          print(f'Eval cases: {len(EVAL_CASES)}')
+          "
+
+      - name: Run auth unit tests
+        run: |
+          python -c "
+          from app.auth.users import authenticate, hash_password, verify_password
+
+          # Password hashing
+          h = hash_password('secret')
+          assert verify_password('secret', h), 'verify should pass'
+          assert not verify_password('wrong', h), 'verify should fail on wrong password'
+
+          # User lookup
+          user = authenticate('alice', 'alice123')
+          assert user is not None, 'alice should authenticate'
+          assert user['role'] == 'employee', f'wrong role: {user[\"role\"]}'
+
+          assert authenticate('alice', 'wrongpass') is None, 'wrong password should fail'
+          assert authenticate('nobody', 'anything') is None, 'unknown user should fail'
+
+          print('Auth tests passed')
+          "
+
+      - name: Run PII detection tests
+        run: |
+          python -c "
+          from app.guardrails.pii import detect_pii, has_pii, redact_pii
+
+          # Clean text
+          assert not has_pii('What is the leave policy?'), 'clean text should have no PII'
+
+          # PII text
+          assert has_pii('My email is alice@example.com'), 'email should be detected'
+          assert has_pii('My name is John Smith'), 'person name should be detected'
+
+          # Redaction
+          redacted = redact_pii('Contact alice@example.com for help')
+          assert 'alice@example.com' not in redacted, 'email should be redacted'
+          assert '<EMAIL_ADDRESS>' in redacted, 'placeholder should appear'
+
+          print('PII tests passed')
+          "
+
+      - name: Run JWT tests
+        run: |
+          python -c "
+          import os
+          os.environ['JWT_SECRET_KEY'] = 'test-secret-key'
+          from app.auth.jwt import create_access_token, decode_access_token
+          from fastapi import HTTPException
+
+          token = create_access_token({'sub': 'alice'})
+          payload = decode_access_token(token)
+          assert payload['sub'] == 'alice', 'sub claim should match'
+
+          try:
+              decode_access_token('invalid.token.here')
+              assert False, 'should have raised'
+          except HTTPException as e:
+              assert e.status_code == 401, 'should be 401'
+
+          print('JWT tests passed')
+          "
+
+  docker-build:
+    runs-on: ubuntu-latest
+    needs: lint-and-test
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build Docker image
+        run: docker build -t company-chatbot:${{ github.sha }} .
+
+      - name: Verify container starts
+        run: |
+          docker run --rm -d \
+            --name chatbot-test \
+            -p 8000:8000 \
+            -e JWT_SECRET_KEY=ci-test-secret \
+            -e CHROMA_HOST=localhost \
+            -e CHROMA_PORT=8001 \
+            -e OLLAMA_HOST=http://localhost:11434 \
+            -e OLLAMA_MODEL=llama3 \
+            company-chatbot:${{ github.sha }}
+          sleep 10
+          curl --fail http://localhost:8000/health || (docker logs chatbot-test && exit 1)
+          docker stop chatbot-test

@@ -1,0 +1,89 @@
+NEXORA TECHNOLOGIES — ANNUAL BUDGET FY2025
+Confidential — Finance Team and C-Level Only
+Approved by Board of Directors: March 15, 2024
+
+================================================================
+SECTION 1: REVENUE TARGETS
+================================================================
+
+Total Revenue Target FY2025: ₹82 crore
+Growth Target: 28% YoY over FY2024 actual (₹64 crore)
+
+Quarterly Revenue Targets:
+- Q1 FY2025 (Apr–Jun 2024): ₹18 crore
+- Q2 FY2025 (Jul–Sep 2024): ₹20 crore
+- Q3 FY2025 (Oct–Dec 2024): ₹21 crore
+- Q4 FY2025 (Jan–Mar 2025): ₹23 crore
+
+ARR Target (End of FY2025): ₹72 crore
+New Logos Target: 85 new customers
+Expansion Revenue Target: 22% of total revenue from existing customers
+
+================================================================
+SECTION 2: TOTAL EXPENSE BUDGET
+================================================================
+
+Total Approved Expenses FY2025: ₹63.4 crore
+
+Personnel Costs: ₹36.8 crore (58% of total budget)
+- Approved headcount: 385 (current: 312, planned hires: 73)
+- Engineering team budget: ₹16.2 crore
+- Sales team budget: ₹9.4 crore
+- Customer Success budget: ₹5.1 crore
+- G&A budget: ₹6.1 crore
+
+Infrastructure Budget: ₹5.6 crore
+- AWS and cloud infrastructure: ₹3.8 crore
+- SaaS tools and licenses: ₹1.2 crore
+- Security and compliance tools: ₹0.6 crore
+
+Sales and Marketing Budget: ₹9.2 crore
+- Performance marketing (Google, LinkedIn): ₹2.4 crore
+- Events (SaaS India, GITEX Dubai, AWS Summit): ₹1.8 crore
+- Content and brand: ₹1.2 crore
+- Sales team travel and entertainment: ₹1.6 crore
+- Partner and channel programs: ₹2.2 crore
+
+R&D and Product Development: ₹6.8 crore
+- New feature development: ₹4.2 crore
+- Platform infrastructure and scalability: ₹1.8 crore
+- Security and compliance (SOC2 Type II): ₹0.8 crore
+
+General and Administrative: ₹5.0 crore
+- Office rent (3 locations): ₹2.6 crore
+- Legal and IP: ₹0.8 crore
+- Finance and audit: ₹0.6 crore
+- Miscellaneous: ₹1.0 crore
+
+================================================================
+SECTION 3: PROFITABILITY TARGETS
+================================================================
+
+Target Gross Margin: 70%
+Target EBITDA Margin: 22.5%
+Target Net Profit Margin: 15%
+Target Net Profit: ₹12.3 crore
+
+================================================================
+SECTION 4: CAPITAL EXPENDITURE
+================================================================
+
+Total Capex Budget: ₹4.2 crore
+- Office expansion (Hyderabad office fit-out): ₹1.8 crore
+- Hardware and lab equipment (Engineering): ₹0.9 crore
+- Data centre equipment: ₹1.5 crore
+
+================================================================
+SECTION 5: BUDGET GOVERNANCE
+================================================================
+
+Department heads must seek Finance approval for any single expense exceeding ₹2,00,000.
+Quarterly budget reviews are held in the first week of each quarter.
+Any department exceeding 110% of their quarterly budget requires CFO approval for continued spend.
+
+Finance Controller: Deepa Joshi (deepa.joshi@nexora.internal)
+CFO: Rajesh Kapoor (rajesh.kapoor@nexora.internal)
+
+================================================================
+END OF DOCUMENT
+================================================================
