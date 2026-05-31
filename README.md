@@ -1,3 +1,17 @@
+
+---
+title: {{title}}
+emoji: {{emoji}}
+colorFrom: {{colorFrom}}
+colorTo: {{colorTo}}
+sdk: {{sdk}}
+sdk_version: "{{sdkVersion}}"
+{{#pythonVersion}}
+python_version: "{{pythonVersion}}"
+{{/pythonVersion}}
+app_file: app.py
+pinned: false
+---
 <div align="center">
 
 # AI Graudrails
@@ -14,7 +28,7 @@
 
 ## What is this?
 
-AI Graudrails is a production-grade internal chatbot for a fictional company — Nexora Technologies. Employees ask questions in natural language and get answers sourced directly from company documents. Each user only sees documents their role permits. Every request is screened for PII and unsafe content before it reaches the AI.
+AI Graudrails is a production-grade internal chatbot for a fictional company. Employees ask questions in natural language and get answers sourced directly from company documents. Each user only sees documents their role permits. Every request is screened for PII and unsafe content before it reaches the AI.
 
 This project was built as a complete learning exercise covering the full stack of a real enterprise AI system — from document ingestion to deployment.
 
